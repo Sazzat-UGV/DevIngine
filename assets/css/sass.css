@@ -7,18 +7,19 @@
 }
 
 /* ============================CSS VARIABLE START ============================ */
-
 :root {
     --header-height: 3rem;
+
     /* =====================colors====================== */
     --main-color: #c20d5a;
     --second-color: rgb(7, 3, 45);
-    --main-gradient: linear-gradient(121deg, rgb(194, 13, 90, 1)) 25%, rgb(255, 0, 194/42%) 100%;
+    --main-gradient: linear-gradient(121deg, rgb(194, 13, 90, 1)) 25%, rgb(255 0 194/42%) 100%;
     --dark-bg: #383848;
     --main-color-alt: #af547d;
     --text-color: #707070;
     --white-color: #ffffff;
     --white-alt: #e6e6e6;
+
     /* =====================FONT AND TYPOGRAPHY====================== */
     --body-font: 'Poppins', sans-serif;
     --biggest-font-size: 2.25rem;
@@ -28,9 +29,11 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+
     /* =====================FONT WEIGHT====================== */
     --font-medium: 500;
     --font-semi-bold: 600;
+
     /* =====================MARGIN PADDING====================== */
     --md-1: .5rem;
     --md-2: 1rem;
@@ -38,13 +41,13 @@
     --md-4: 2rem;
     --md-5: 2.5rem;
     --md-6: 3rem;
+
     /* =====================Z INDEX====================== */
     --z-tooltip: 10;
     --z-fixed: 100;
 }
 
 /* ============================CSS VARIABLE END ============================ */
-
 
 /* ============================BASE CSS START ============================ */
 *,
@@ -92,29 +95,35 @@ button:focus {
 }
 
 /* ============================BASE CSS END ============================ */
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,p,ul,li,span,label {
+h6,
+p,
+ul,
+li,
+span,
+label {
     margin: 0;
 }
 
-ul{
+ul {
     padding: 0;
     list-style: none;
 }
 
-.ovh{
-overflow: hidden;
+.ovh {
+    overflow: hidden;
 }
 
-table.table{
+table.table {
     white-space: nowrap;
 }
 
-.di-btn{
+.di-btn {
     color: aliceblue;
     padding: .7rem var(--mb-2);
     font-weight: 500;
@@ -122,20 +131,22 @@ table.table{
     box-shadow: 0px 6px 19px 1px #06041d4a;
 }
 
-.purple-gradient{
+.purple-gradient {
     background: var(--main-gradient)
 }
 
-.bg-cla{
+.bg-cla {
     background: var(--main-color);
 }
 
-.bg-clc{
-    background:linear-gradient(121deg, rgb(92,26,195) 25%,rgb(136 25 206/ 95%)100%);
+.bg-clc {
+    background: linear-gradient(121deg, rgb(92, 26, 195) 25%, rgb(136 25 206/ 95%)100%);
 }
-.bg-clc{
-    background:linear-gradient(121deg, rgb(26,179,195) 25%,rgb(25 97 206/ 95%)100%);
+
+.bg-clc {
+    background: linear-gradient(121deg, rgb(26, 179, 195) 25%, rgb(25 97 206/ 95%)100%);
 }
-.bg-clc{
-    background:linear-gradient(121deg, rgb(232,202,53) 25%,rgb(206 125 25/ 95%)100%);
+
+.bg-clc {
+    background: linear-gradient(121deg, rgb(232, 202, 53) 25%, rgb(206 125 25/ 95%)100%);
 }
